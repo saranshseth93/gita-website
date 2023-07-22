@@ -1,10 +1,13 @@
 import React from 'react'
-import { StyledContainer } from './style'
+import { StyledContainer, StyledImage } from './style'
+import logo from '../assets/logo.svg'
+
 
 const Header = () => {
   return (
     <StyledContainer maxWidth={false}>
-        Sacred Sutras
+        <StyledImage src={logo} alt="logo" />
+        
     </StyledContainer>
   )
 }
